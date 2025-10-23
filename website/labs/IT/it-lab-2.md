@@ -109,7 +109,7 @@ In this lab, we will build a HDB Annual Report agent in watsonx Orchestrate to a
 In this part of the lab, we will change the source of the knowledge base and deploy the agent.
 
 1. Click on Change source in the "Knowledge source" section
-        ![image](./imgs/imgs_lab2&3/hdb_step14.jpg)
+        ![image](./website/imgs/imgs_lab2&3/hdb_step14.jpg)
 
 1. Select Elasticsearch and click "I understand"
         ![image](./imgs/imgs_lab2&3/hdb_step15.jpg)
