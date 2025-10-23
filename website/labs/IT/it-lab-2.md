@@ -13,7 +13,7 @@ In this lab, we will build a HDB Annual Report agent in watsonx Orchestrate to a
 
 1. When you launch watsonx Orchestrate, you'll be directed to this page. Click on the hamburger menu in the top left corner:
 
-    ![image](./imgs/imgs_lab2&3/step1.png)
+    ![image](iantanzy/agentic-ai-workshop/website/imgs/imgs_lab2&3/step1.png) 
 
 1. Click on the down arrow next to **Build**.  Then click on **Agent Builder**:
 
