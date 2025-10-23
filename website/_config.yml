@@ -23,8 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Collection of Finance, Sales and IT Agent labs using WxO.
 # baseurl: "agenticai.github.io" # the subpath of your site, e.g. /blog
-baseurl: "/agenticai" # the subpath of your site, e.g. /blog
-url: "https://saumya06.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/agentic-ai-workshop" # the subpath of your site, e.g. /blog
+url: "https://iantanzy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
