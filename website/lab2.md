@@ -1,15 +1,6 @@
 ---
 layout: default
-title: Lab 2A & 2B
-parent: Finance Labs
+title: Lab 2
 nav_order: 3
+has_children: true
 ---
-
-# 🏦 AskProcurement Agent: Building a Supplier Research RAG Agent
-
-
-# 🏦 AskProcurement Agent: Integrating External Tools
-
-
-## Use Case Description
-

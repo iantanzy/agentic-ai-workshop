@@ -15,8 +15,6 @@ Throughout the day, we will take you through
  - Hands-on labs with IBM Watsonx Orchestrate
  - Demos of pro-centric agent development and agentops
 
-Here's the updated agenda with Lab 2b moved:
-
 | Time | Topic |
 |------|-------|
 | 0900 – 0915 | **Welcome and Opening**<br>Introduction and perform environment access check (for hands-on labs). |
