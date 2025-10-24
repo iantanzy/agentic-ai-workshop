@@ -2,7 +2,7 @@
 layout: default
 title: Lab 2A & 2B
 parent: Finance Labs
-nav_order: 2
+nav_order: 3
 ---
 
 # 🏦 AskProcurement Agent: Building a Supplier Research RAG Agent
