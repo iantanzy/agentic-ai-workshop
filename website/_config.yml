@@ -42,7 +42,7 @@ just_the_docs:
   collections:
     labs:
       name: Labs
-      nav_fold: true
+      nav_fold: false
 
 # Build settings
 theme: just-the-docs
