@@ -34,15 +34,15 @@ github_username: jekyll
 nav_sort: case_sensitive # keep consistent ordering
 
 # Collections for labs
-collections:
-  labs:
-    output: true
+# collections:
+#   labs:
+#     output: true
 
-just_the_docs:
-  collections:
-    labs:
-      name: Labs
-      nav_fold: false
+# just_the_docs:
+#   collections:
+#     labs:
+#       name: Labs
+#       nav_fold: false
 
 # Build settings
 theme: just-the-docs
