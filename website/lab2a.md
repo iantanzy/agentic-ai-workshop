@@ -25,7 +25,7 @@ In this lab, we will be building the GFM Product Information Agent. This Agent a
 
 3. Follow the steps according to the screenshot below
     - Select **Create from scratch**
-    - Name the agent: *[Your_Initial]_GFM Product Information*
+    - Name the agent: *[Your_Initial]_GFM_Product_Information*
     - Add the following to **Description**
     
     ```
@@ -173,6 +173,10 @@ In this lab, we will be building the GFM Product Information Agent. This Agent a
 
     ![image](./imgs/lab2a/step10.png)
 
+12. Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator Agent, we don't want to enable it for direct chat on the chat homepage. Scroll down to **Channels** section and disable the **Home page** feature.
+
+    ![image](./imgs/lab2a/step11.png)
+
 ### Test the  GFM Product Information RAG Agent
 1. In the preview window on the right, test with the following queries:
 
@@ -183,6 +187,6 @@ In this lab, we will be building the GFM Product Information Agent. This Agent a
     If I enter the PIN 5 times on my card, what will happen?
     ```
 
-    ![image](./imgs/lab2a/step11.png)
+    ![image](./imgs/lab2a/step12.png)
 
-**Congratulations! You’ve built your first RAG Agent.**
+**Congratulations! You’ve built your first RAG Agent!**
