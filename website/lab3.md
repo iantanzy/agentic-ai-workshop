@@ -16,7 +16,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 ![image](./imgs/lab3/lab3-architecture.png)
 
-### Create GFM Teller Agent
+### Create GFM BackOffice Agent
 
 1. Click on hamburger menu, then **Build -> Agent Builder**
 
