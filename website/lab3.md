@@ -44,7 +44,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 4. Click **Create**
 
-    ![image](./imgs/lab3/step3.png)
+    ![image](./imgs/lab3/lab3-1.png)
 
 5. Once created, you would land in the agent building page. First, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
 
