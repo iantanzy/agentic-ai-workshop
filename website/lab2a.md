@@ -62,7 +62,7 @@ In this lab, we will be building the GFM Product Information Agent. This Agent a
 8. Download the following files and upload them as the knowledge source and then click **Next**
  - [Overdraft Services FAQ](./knowledge%20base/Overdraft%20Services%20FAQ.docx)
  - [list-of-prices-and-Services.pdf](./knowledge%20base/list-of-prices-and-Services.pdf)
- - [ser-terms-conditions-debit-cards.pdf](./knowledge%20base/ser-terms-conditions-debit-cards%20(1).pdf)
+ - [ser-terms-conditions-debit-cards.pdf](./knowledge%20base/ser-terms-conditions-debit-cards.pdf)
 
 
     ![image](./imgs/lab2a/step7.png)
