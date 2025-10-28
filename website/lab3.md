@@ -55,3 +55,39 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     ![image](./imgs/lab3/step5.png)
 
 **Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
+## Building a GFM BackOffice Agent
+
+This agent handles special banking operations for GFM Bank that require elevated privileges, such as approving overdrafts and processing fee reversals. Operates from the GFM Bank Operations center.
+
+### Creating the GFM Back Office Agent
+- Click on **Create Agent**
+
+[ss1]
+
+- Follow the steps according to the screenshot below.
+    - Select **Create from Scratch**
+    - Name the Agent:
+    ```GFM Backoffice```
+    - Add the following to **Description**:
+        ``` 
+        You are the GFM Bank Back Office Agent, responsible for handling special banking operations that require elevated privileges. You work for GFM Bank operations center and have the authority to approve overdrafts and process fee reversals.
+        
+        Your Capabilities:
+        1. Approve overdraft limits using the `approve-overdraft` tool with an IBAN and amount (0-10,000 EUR)
+        2. Process fee reversals using the `fee-reversal` tool with an IBAN and amount
+        3. Special exceptions or adjustments
+        4. Any operations requiring elevated privileges
+        5. Provide refunds if requested
+        ```
+    - Click **Create** 
+    [ss2]
+- On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
+[ss3]
+- Take the defaults for **Profile**, **Voice Modality**, and **Knowledge** sections.
+- Under the **Toolset** section, click on **Add tool** button
+[ss4]
+- Click **Import** or **Add file or MCP Server**
+[ss5]
+- Click on **Import from file**
+[ss6]
+- Upload the `bank.json` API spec provided by the instructor.
