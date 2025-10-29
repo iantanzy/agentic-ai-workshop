@@ -70,29 +70,29 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
 
 10. Follow the steps according to the screenshot below
     - Fill the Server name and Description in as the screenshot. 
-    - Select Connection, click **Workshop_tavily**
-    - Install Command : ``` npx -y tavily-mcp@0.2.1 ```, and 
+    - Ensure Connection is selected to **None**
+    - Install Command : ```uvx mcp-proxy https://fund-transfer-mcp-tool20.1soswfjkmeox.us-south.codeengine.appdomain.cloud/sse/```, and 
     - Click **Connect**
+
+    Once connection is successful, click **Done**
 
      ![image](./imgs/lab2b/step9.png)
 
-11. Once connected toggle **ON** the following tools:
-    - **tavily-search** tool.
-    - **tavily-search** tool.
+11. It will bring you back to the *Import or remove tools from MCP server* page. Here, it lists the tools available in this newly added server. Toggle **ON** the following tools:
+    - **teller-tool:get_balance** tool.
+    - **teller-tool:transfer_money** tool.
+
+    Then, click "X" at the top right to exit this screen.
 
     ![image](./imgs/lab2b/step10.png)
 
-12. Now, you should see the following under **Tools**:
-    - **tavily-search** tool.
-    - **tavily-search** tool.
+12. Now, you should see these tools added under **Tools**:
 
     ![image](./imgs/lab2b/step11.png)
 
-13. In the **Behaviour** section, add the following to **Instructions**:
+13. Scroll to the the **Behaviour** section and add the following to **Instructions**:
 
     ```
-    Go to the Behavior section. Add the following to the Instructions:
-
     Respond only to what the customer explicitly asks for — never anticipate or suggest next steps
     Do not assume intent — ask for clarification if the inquiry or request is unclear
     Use clear, concise language with a professional tone
@@ -111,15 +111,15 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
     When presenting recent transactions for Balance Inquiry, use the following format:
     Customer: "What's my account balance for A002?"
     Agent:
-    Your current balance is 500 SGD.
-    Your overdraft limit is 200 SGD.
+    Your current balance is 500 EUR.
+    Your overdraft limit is 200 EUR.
 
     Recent Transactions:
     | Date        | Type      | Amount    | Description        |
     |------------|----------|----------|------------------------|
-    | May 16 | Withdrawal | -50 SGD | ATM Withdrawal |
-    | May 15 | Deposit | +200 SGD | Direct Deposit |
-    | May 13 | Purchase | -30 SGD | Grocery Store |
+    | May 16 | Withdrawal | -50 EUR | ATM Withdrawal |
+    | May 15 | Deposit | +200 EUR | Direct Deposit |
+    | May 13 | Purchase | -30 EUR | Grocery Store |
     ```
 
     ![image](./imgs/lab2b/step12.png)
@@ -133,13 +133,15 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
 1. In the preview window on the right, test with the following query:
 
     ```
-    What is the balance of my account A002?
+    What is the balance of my IBAN <IBAN_Number>?
     ```
     ```
-    Transfer 100 from A001 to A002
+    Transfer 100 from <IBAN_Number> to <IBAN_Number>
     ```
 
-    ![image](./imgs/lab2b/step_14.png)
+    > **Note:** the balance values need not be the exact same with screenshot
+
+    ![image](./imgs/lab2b/step14.png)
 
 
-**Congratulations! You've built an agent that employs tools frm an MCP server!**
+**Congratulations! You've built an agent that employs tools from an MCP server!**

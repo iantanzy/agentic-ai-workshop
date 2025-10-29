@@ -55,15 +55,11 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     ![image](./imgs/lab3/step5.png)
 
 **Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
-## Building a GFM BackOffice Agent
 
-This agent handles special banking operations for GFM Bank that require elevated privileges, such as approving overdrafts and processing fee reversals. Operates from the GFM Bank Operations center.
+---------------------
+# this is backbone of the lab 3 instructions to be added above^
 
-### Creating the GFM Back Office Agent
-- Click on **Create Agent**
-
-[ss1]
-
+## may modify or just cp paste instructions from other labs if its the same generic steps.
 - Follow the steps according to the screenshot below.
     - Select **Create from Scratch**
     - Name the Agent:
