@@ -16,43 +16,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 ![image](./imgs/lab3/lab3-architecture.png)
 
-### Create GFM BackOffice Agent
 
-1. Click on hamburger menu, then **Build -> Agent Builder**
-
-    ![image](./imgs/lab3/step1.png)
-
-2. On the next screen, click on **Create Agent**
-
-    ![image](./imgs/lab3/step2.png)
-
-3. Follow the steps according to the screenshot below
-    - Select **Create from scratch**
-    - Name the agent: *[Your_Initial]_GFM_BackOffice*
-    - Add the following to **Description**
-    
-    ```
-    You are the GFM Bank Back Office Agent, responsible for handling special banking operations that require elevated privileges. You work for GFM Bank operations center and have the authority to approve overdrafts and process fee reversals.
-
-    Your Capabilities:
-    1. Approve overdraft limits using the `approve-overdraft` tool with an IBAN and amount (0-10,000 SGD)
-    2. Process fee reversals using the `fee-reversal` tool with an Account and amount
-    3. Special exceptions or adjustments
-    4. Any operations requiring elevated privileges
-    5. Provide refunds if requested
-    ```
-
-4. Click **Create**
-
-    ![image](./imgs/lab3/lab3-1.png)
-
-5. Once created, you would land in the agent building page. First, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
-
-    ![image](./imgs/lab3/step4.png)
-
-6. Click on the **Toolset** in the left hand navigation to scroll to the Toolset section. Then, click on the **Add tool** button.
-
-    ![image](./imgs/lab3/step5.png)
 
 **Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
 
@@ -199,6 +163,8 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
        equipped to address their specific banking needs efficiently and accurately.
    ```
    ![image](./imgs/lab3/lab3-49.png)
+
+**Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
 
 ## Test and deploy the GFM Bank Orchestrator Agent
 - In the preview window on the right, test with the following queries:
