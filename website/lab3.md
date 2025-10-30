@@ -199,7 +199,19 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
        equipped to address their specific banking needs efficiently and accurately.
    ```
    ![image](./imgs/lab3/lab3-49.png)
-   
+
+## Test and deploy the GFM Bank Orchestrator Agent
+- In the preview window on the right, test with the following queries:
+```
+    What is a card overdraft?
+    What's the balance of my account IBAN DE89320895326389021994
+   ```
+- Click on **Deploy** to deploy the agent
+![image](./imgs/lab3/lab3-50.png)
+- On the **Deploy Agent** page, click on **Deploy**
+![image](./imgs/lab3/lab3-51.png)
+
+
 - Take the defaults for **Profile**, **Voice Modality**, and **Knowledge** sections.
 - Under the **Toolset** section, click on **Add tool** button
 [ss4]
