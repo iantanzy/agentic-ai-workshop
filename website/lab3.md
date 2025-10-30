@@ -211,6 +211,34 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 - On the **Deploy Agent** page, click on **Deploy**
 ![image](./imgs/lab3/lab3-51.png)
 
+## Test Your Agentic AI Banking Solution
+- Click on the hamburger icon on the Top Left corner of **watsonx Orchestrate** window,
+  and select **Chat**. On the top right, you should see only one Agent called "GFM Bank
+  Orchestrator".
+![image](./imgs/lab3/lab3-52.png)
+
+- In the chat window, test with the following queries:
+```
+    What's the balance of my account IBAN DE89320895326389021994
+    I want to transfer 20 euros from IBAN DE89320895326389021994 to IBAN
+    DE89929842579913662103
+    What's the balance of my account IBAN DE89320895326389021994
+    How can I avoid overdraft fees?
+    What are the fees for personal banking account?
+    I want to request an overdraft of 4000 euros for my account IBAN
+    DE89320895326389021994
+    Please approve my overdraft of 4000 EURO for my account IBAN
+    DE89320895326389021994
+    What's the balance of my account IBAN DE89320895326389021994
+    I want to transfer 20 euros from IBAN DE89320895326389021994 to IBAN
+    DE89929842579913662103
+    Oh, I made a mistake, can you do a reversal of my previous 4000 EURO payment to my
+    IBAN DE89320895326389021994
+```
+![image](./imgs/lab3/lab3-53.png)
+
+- Example of **Back Office Agent** functionality under **Teller Agent**
+![image](./imgs/lab3/lab3-54.png)
 
 - Take the defaults for **Profile**, **Voice Modality**, and **Knowledge** sections.
 - Under the **Toolset** section, click on **Add tool** button
