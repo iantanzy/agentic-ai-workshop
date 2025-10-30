@@ -63,7 +63,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 - Follow the steps according to the screenshot below.
     - Click on hamburger menu, then **Build -> Agent Builder**
 
-    ![image](./imgs/lab3/lab3-41.png)
+    ![image](./imgs/lab3/lab3-1.png)
     - Select **Create from Scratch**
     ![image](./imgs/lab3/lab3-42.png)
     - Name the Agent:
