@@ -61,6 +61,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 ## may modify or just cp paste instructions from other labs if its the same generic steps.
 - Follow the steps according to the screenshot below.
+## Create GFM BackOffice Agent
     - Click on hamburger menu, then **Build -> Agent Builder**
 
     ![image](./imgs/lab3/lab3-1.png)
