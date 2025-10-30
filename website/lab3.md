@@ -57,11 +57,8 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 **Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
 
 ---------------------
-# this is backbone of the lab 3 instructions to be added above^
-
-## may modify or just cp paste instructions from other labs if its the same generic steps.
-### Create GFM BackOffice Agent
-- Follow the steps according to the screenshot below.
+## Create GFM BackOffice Agent
+- Follow the steps according to the screenshots below.
     - Click on hamburger menu, then **Build -> Agent Builder**
 
     ![image](./imgs/lab3/lab3-1.png)
