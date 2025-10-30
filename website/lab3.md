@@ -17,9 +17,6 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 ![image](./imgs/lab3/lab3-architecture.png)
 
 
-
-**Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
-
 ---------------------
 ## Create GFM BackOffice Agent
 - Follow the steps according to the screenshots below.
@@ -205,12 +202,3 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 - Example of **Back Office Agent** functionality under **Teller Agent**
 ![image](./imgs/lab3/lab3-54.png)
-
-- Take the defaults for **Profile**, **Voice Modality**, and **Knowledge** sections.
-- Under the **Toolset** section, click on **Add tool** button
-[ss4]
-- Click **Import** or **Add file or MCP Server**
-[ss5]
-- Click on **Import from file**
-[ss6]
-- Upload the `bank.json` API spec provided by the instructor.
