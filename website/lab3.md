@@ -126,6 +126,15 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     ![image](./imgs/lab3/lab3-43.png)
 - On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
  ![image](./imgs/lab3/lab3-44.png)
+
+## Add collaborative agents
+- In the **Agents** section, click on **Add Agent**
+![image](./imgs/lab3/lab3-45.png)
+- Click **Add from local instance**
+ ![image](./imgs/lab3/lab3-46.png)
+- Select **GFM Teller, GFM Product Information** and then the **Add to Agent button**
+  ![image](./imgs/lab3/lab3-47.png)
+  ![image](./imgs/lab3/lab3-48.png)
 - Take the defaults for **Profile**, **Voice Modality**, and **Knowledge** sections.
 - Under the **Toolset** section, click on **Add tool** button
 [ss4]
