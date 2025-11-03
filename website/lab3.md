@@ -167,8 +167,10 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 2. On the **Deploy Agent** page, click on **Deploy**
 ![image](./imgs/lab3/lab3-131.png)
 
+## Add collaborative agents
 
-
+1. Click on **Agent Builder** and locate your previously created **[YOUR INITIALS]_GFM_Teller** Agent.
+![image](./imgs/lab3/lab3-111.png)
 
 
 
