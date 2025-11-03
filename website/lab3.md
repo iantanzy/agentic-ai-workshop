@@ -217,15 +217,24 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
         Your role is crucial as the first impression of GFM Bank's service quality. Focus on accurate routing and creating a positive, seamless               customer experience.
 
     ```
+    4.Click **Create**
+    ![image](./imgs/lab3/lab3-500.png)
+
+    ![image](./imgs/lab3/lab3-501.png)
+
+    5.On the [Your initials]_GFM_Bank_Orchestrator page, select the "llama-3-405b-instruct"model from the dropdown menu at the top middle of the page
+    ![image](./imgs/lab3/lab3-44.png)
 
 ## Add collaborative agents
-- In the **Agents** section, click on **Add Agent**
+1.In the **Agents** section, click on **Add Agent**
 ![image](./imgs/lab3/lab3-45.png)
-- Click **Add from local instance**
+
+2.Click **Add from local instance**
  ![image](./imgs/lab3/lab3-46.png)
-- Select **GFM Teller, GFM Product Information** and then the **Add to Agent button**
-  ![image](./imgs/lab3/lab3-47.png)
-  
+ 
+3.Select **[Your initials_GFM_Teller, [Your initials]_GFM_Product_Information** and then the **Add to Agent button**
+  ![image](./imgs/lab3/lab3-461.png)
+    
   ![image](./imgs/lab3/lab3-48.png)
 
 - In the **Behavior** section, add the following for **Instructions:**
@@ -289,20 +298,23 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
        ensuring each customer is directed to the specialized agent best
        equipped to address their specific banking needs efficiently and accurately.
    ```
+   
    ![image](./imgs/lab3/lab3-49.png)
 
 **Congratulations! You’ve built your first Multi-Agent Orchestrator Agent!**
 
 ## Test and deploy the GFM Bank Orchestrator Agent
-- In the preview window on the right, test with the following queries:
+1. In the preview window on the right, test with the following queries:
 ```
     What is a card overdraft?
     What's the balance of my account IBAN DE89320895326389021994
    ```
-- Click on **Deploy** to deploy the agent
-![image](./imgs/lab3/lab3-50.png)
+
+2. Click on **Deploy** to deploy the agent
+![image](./imgs/lab3/lab3-501.png)
+
 - On the **Deploy Agent** page, click on **Deploy**
-![image](./imgs/lab3/lab3-51.png)
+![image](./imgs/lab3/lab3-511.png)
 
 ## Test Your Agentic AI Banking Solution
 - Click on the hamburger icon on the Top Left corner of **watsonx Orchestrate** window,
@@ -328,7 +340,7 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
     Oh, I made a mistake, can you do a reversal of my previous 4000 EURO payment to my
     IBAN DE89320895326389021994
 ```
-![image](./imgs/lab3/lab3-53.png)
+![image](./imgs/lab3/lab3-521.png)
 
 - Example of **Back Office Agent** functionality under **Teller Agent**
 ![image](./imgs/lab3/lab3-54.png)
