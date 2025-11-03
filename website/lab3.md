@@ -197,9 +197,9 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 ![image](./imgs/lab3/lab3-28.png)
 
 3.On the **Deploy Agent** screen, click on **Deploy**. The Agent is now available for others to interact with.
-![image](./imgs/lab3/lab3-281.png)
+![image](./imgs/lab3/lab2-281.png)
 
-![image](./imgs/lab3/lab3-291.png)
+![image](./imgs/lab3/lab2-291.png)
 
 
 
