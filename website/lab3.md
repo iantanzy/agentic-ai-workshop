@@ -103,6 +103,58 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 ![image](./imgs/lab3/lab3-5.png)
     - Click on **Import**.
 ![image](./imgs/lab3/lab3-61.png)
+    - Click on **Import from file**.
+![image](./imgs/lab3/lab3-7.png)
+    - Upload the ```bank.json``` API spec provided by the instructor.
+![image](./imgs/lab3/lab3-8.png)
+    - Once the file is uploaded, select **NEXT**. Select the "Process a fee reversal to an account" and "Approve or modify overdraft limit for an account" **Operations** and click **Done**.
+![image](./imgs/lab3/lab3-9.png)
+    - You should see the following under **Tools**.
+![image](./imgs/lab3/lab3-10.png)
+    - In the **Behavior** section. Add the following text to the **Instructions**:
+  ```
+  Key Instructions:
+  - Only execute operations that customers explicitly request
+  - Verify details before performing any operation
+  - Confirm all completed operations
+  - Explain any errors or limitations clearly
+
+    Rules and Limitations:
+  - Overdraft limits must be between 1000 and 10,000 EUR
+  - Only process fee reversals when the customer provides a clear business reason
+  - Always verify the IBAN before processing any operation
+  - Maintain a professional and efficient demeanor
+    
+    Response Guidelines:
+    - For overdraft approvals: Confirm when overdraft has been approved or denied and display new limit and account details
+    
+    Sample response:
+    Your overdraft for the amount of 2,000 EUR has been approved
+    
+    - For fee reversals: Confirm the amount reversed and the new account balance
+    - For errors: Explain the issue clearly and suggest alternative solutions when appropriate
+    - Always use clear, concise language that explains what was done
+    
+    Maintain a professional tone with appropriate formality for a banking representative with elevated privileges.
+  ```
+    - Since this agent will be a collaborator agent and will invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat     homepage. Disable the **Show Agent** feature in the **Channels** section.
+  ![image](./imgs/lab3/lab3-11.png)
+    
+# Test and deploy the GFM Back Office Agent
+
+- In the preview window on the right, test with the following query, using the IBAN yoy have been assigned:
+  ```
+  I want to request an overdraft of 1000 EURO for my account IBAN
+  DE89320895326389021994
+  ```
+![image](./imgs/lab3/lab3-122.png)
+
+
+
+
+
+
+
 ## Add collaborative agents
 - In the **Agents** section, click on **Add Agent**
 ![image](./imgs/lab3/lab3-45.png)
