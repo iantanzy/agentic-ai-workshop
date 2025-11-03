@@ -169,8 +169,38 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 ## Add collaborative agents
 
-1. Click on **Agent Builder** and locate your previously created **[YOUR INITIALS]_GFM_Teller** Agent.
+1.Click on **Agent Builder** and **click** your previously created [YOUR INITIALS]_GFM_Teller Agent.
 ![image](./imgs/lab3/lab3-111.png)
+
+2.In the **Agents** section, click on **Add Agent**
+![image](./imgs/lab3/lab3-23.png)
+
+3.Click **Add from local instance**
+![image](./imgs/lab3/lab3-24.png)
+
+4.Select [YOUR_INITIALS]_GFM_Backoffice and then the **Add to Agent button**.
+![image](./imgs/lab3/lab3-25.png)
+
+
+![image](./imgs/lab3/lab3-121.png)
+
+5.Since this agent will be a collaborator agent and will be invoked by GFM Bank Orchestrator Agent, we don't want it for direct chat on the chat homepage. Disable the **Homepage** feature
+![image](./imgs/lab3/lab3-132.png)
+
+
+## Test and deploy [Your Initials]_GFM_Teller_Agent.
+1.In the preview window on the right, test with the following query, using the IBAN yoy have been assigned:
+  ```
+  What is the balance of my account IBAN DE89320895326389021994
+  ```
+2.Click on **Deploy** to deploy the agent
+![image](./imgs/lab3/lab3-28.png)
+
+3.On the **Deploy Agent** screen, click on **Deploy**. The Agent is now available for others to interact with.
+![image](./imgs/lab3/lab3-281.png)
+
+![image](./imgs/lab3/lab3-291.png)
+
 
 
 
