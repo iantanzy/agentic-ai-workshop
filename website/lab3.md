@@ -101,7 +101,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     
 ## Test and deploy the GFM Back Office Agent
 
-1. In the preview window on the right, test with the following query, using the IBAN yoy have been assigned:
+1. In the preview window on the right, test with the following query, using the IBAN you have been assigned:
   ```
   I want to request an overdraft of 1000 EURO for my account IBAN
   DE89320895326389021994
