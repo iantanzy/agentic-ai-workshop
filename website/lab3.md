@@ -99,6 +99,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
   ```
   
   4.Name the Agent: ```[YOUR INITIALs]_Backoffice```
+  
   5.Click **Create**
   ![image](./imgs/lab3/lab3-433.png)
 
