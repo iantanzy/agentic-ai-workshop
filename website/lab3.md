@@ -93,11 +93,9 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
         Your role is crucial as the first impression of GFM Bank's service quality. Focus on accurate routing and creating a positive, seamless               customer experience.
         ```
     - Name the Agent: ```[YOUR INITIALs]_Backoffice```
-      ![image](./imgs/lab3/lab3-43.png)
     - Click **Create**
-    - 
-    ![image](./imgs/lab3/lab3-43.png)
-- On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
+       ![image](./imgs/lab3/lab3-43.png)
+    - On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
  ![image](./imgs/lab3/lab3-44.png)
 
 ## Add collaborative agents
