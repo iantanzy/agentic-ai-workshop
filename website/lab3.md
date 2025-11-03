@@ -94,7 +94,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
         ```
     - Name the Agent: ```[YOUR INITIALs]_Backoffice```
     - Click **Create**
-       ![image](./imgs/lab3/lab3-43.png)
+  ![image](./imgs/lab3/lab3-43.png)
     - On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
  ![image](./imgs/lab3/lab3-44.png)
 
