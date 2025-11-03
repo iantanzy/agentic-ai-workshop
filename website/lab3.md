@@ -24,10 +24,13 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
   ![image](./imgs/lab3/lab3-1.png)
   
-  2.Select **Create from Scratch**
+  2.Click on **Create Agent**
     ![image](./imgs/lab3/lab3-42.png)
 
-  3.Add the following to **Description**:
+3.
+  - Select **Create from Scratch**
+  
+  Add the following to **Description**:
   
   ```
           You are the GFM Bank Back Office Agent, responsible for handling special banking operations that require elevated privileges. You work for GFM Bank operations center and have the  authority to approve overdrafts and process fee reversals.
