@@ -20,12 +20,14 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 ---------------------
 ## Create GFM BackOffice Agent
 - Follow the steps according to the screenshots below.
-    - Click on hamburger menu, then **Build -> Agent Builder**
+    1.  Click on hamburger menu, then **Build -> Agent Builder**
 
     ![image](./imgs/lab3/lab3-1.png)
-    - Select **Create from Scratch**
+  
+    2.  Select **Create from Scratch**
     ![image](./imgs/lab3/lab3-42.png)
-    - Add the following to **Description**:
+
+    4.  Add the following to **Description**:
        ```
        You are the GFM Bank Back Office Agent, responsible for handling special banking operations that require elevated privileges. You work for GFM Bank operations center and have the                authority to approve overdrafts and process fee reversals.
        
@@ -92,26 +94,34 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
         Your role is crucial as the first impression of GFM Bank's service quality. Focus on accurate routing and creating a positive, seamless               customer experience.
         ```
-    - Name the Agent: ```[YOUR INITIALs]_Backoffice```
-    - Click **Create**
+    5. Name the Agent: ```[YOUR INITIALs]_Backoffice```
+    6. Click **Create**
   ![image](./imgs/lab3/lab3-433.png)
-    - On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
+
+    7. On the GFM Back Office page, select the "llama-3-405b-instruct" model from the dropdown menu at the top middle of the page.
  ![image](./imgs/lab3/lab3-4.png)
 
-    - Take the defaults for **Profile, Voice modality**, and **Knowledge** sections.
-    - Under the **Toolset** section, click on the **Add tool** button. 
+    8.Take the defaults for **Profile, Voice modality**, and **Knowledge** sections.
+  
+    9. Under the **Toolset** section, click on the **Add tool** button. 
 ![image](./imgs/lab3/lab3-5.png)
-    - Click on **Import**.
+
+    10. Click on **Import**.
 ![image](./imgs/lab3/lab3-61.png)
-    - Click on **Import from file**.
+
+    11. Click on **Import from file**.
 ![image](./imgs/lab3/lab3-7.png)
-    - Upload the ```bank.json``` API spec provided by the instructor.
+
+    12. Upload the ```bank.json``` API spec provided by the instructor.
 ![image](./imgs/lab3/lab3-8.png)
-    - Once the file is uploaded, select **NEXT**. Select the "Process a fee reversal to an account" and "Approve or modify overdraft limit for an account" **Operations** and click **Done**.
+
+    13. Once the file is uploaded, select **NEXT**. Select the "Process a fee reversal to an account" and "Approve or modify overdraft limit for an account" **Operations** and click **Done**.
 ![image](./imgs/lab3/lab3-9.png)
-    - You should see the following under **Tools**.
+
+    14. You should see the following under **Tools**.
 ![image](./imgs/lab3/lab3-10.png)
-    - In the **Behavior** section. Add the following text to the **Instructions**:
+
+    15. In the **Behavior** section. Add the following text to the **Instructions**:
   ```
   Key Instructions:
   - Only execute operations that customers explicitly request
@@ -137,17 +147,20 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     
     Maintain a professional tone with appropriate formality for a banking representative with elevated privileges.
   ```
-    - Since this agent will be a collaborator agent and will invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the chat     homepage. Disable the **Show Agent** feature in the **Channels** section.
+    16. Since this agent will be a collaborator agent and will invoked by GFM Bank Orchestrator, we don't want to enable it for direct chat on the         chat homepage. Disable the **Show Agent** feature in the **Channels** section.
   ![image](./imgs/lab3/lab3-11.png)
     
-# Test and deploy the GFM Back Office Agent
+## Test and deploy the GFM Back Office Agent
 
-- In the preview window on the right, test with the following query, using the IBAN yoy have been assigned:
+1. In the preview window on the right, test with the following query, using the IBAN yoy have been assigned:
   ```
   I want to request an overdraft of 1000 EURO for my account IBAN
   DE89320895326389021994
   ```
 ![image](./imgs/lab3/lab3-122.png)
+
+2. On the **Deploy Agent** page, click on **Deploy**
+![image](./imgs/lab3/lab3-131.png)
 
 
 
