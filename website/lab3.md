@@ -233,7 +233,7 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
 2.Click **Add from local instance**
  ![image](./imgs/lab3/lab3-46.png)
  
-3.Select **[Your initials_GFM_Teller, [Your initials]_GFM_Product_Information** and then the **Add to Agent button**
+3.Select **[Your initials]_GFM_Teller, [Your initials]_GFM_Product_Information** and then the **Add to Agent button**
   ![image](./imgs/lab3/lab3-461.png)
     
   ![image](./imgs/lab3/lab3-48.png)
