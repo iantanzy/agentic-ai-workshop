@@ -111,7 +111,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
   8.Under the **Toolset** section, click on the **Add tool** button. 
 ![image](./imgs/lab3/lab3-5.png)
 
-  9.Click on **Import**.
+  9.Click on **Add from file or MCP Server**.
 ![image](./imgs/lab3/lab3-61.png)
 
   10.Click on **Import from file**.
