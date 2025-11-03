@@ -27,8 +27,7 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
   2.Click on **Create Agent**
     ![image](./imgs/lab3/lab3-42.png)
 
-3.
-  - Select **Create from Scratch**
+3.Select **Create from Scratch**
   
   Add the following to **Description**:
   
