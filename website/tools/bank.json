@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "AY GFM Bank Unified Tool APIs",
+    "title": "GFM Bank Unified Tool APIs",
     "version": "1.0.0",
-    "description": "AY Unified API combining multiple banking services",
+    "description": "Unified API combining multiple banking services",
     "x-disclaimer": "IBM SAMPLE CODE DISCLAIMER\n\u00a9 Copyright IBM Corporation 2025. All Rights Reserved.\n\nThis sample code is provided solely for instructional use in IBM lab exercises. It is supplied \u201cAS IS,\u201d without warranties of any kind, express or implied, including (but not limited to) warranties of merchantability, fitness for a particular purpose, and non-infringement. IBM makes no commitment to update the code and assumes no responsibility for errors or omissions or for any damages arising out of its use.\n\nYou may copy, modify, and distribute this code in whole or in part, at your own risk, provided you retain this notice. The code is not part of any IBM product and is not officially supported by IBM. Use in production environments is entirely at your discretion and must comply with all applicable laws, regulations, and third-party license terms.\n\nIBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corporation. Other product and service names might be trademarks of IBM or other companies."
   },
   "servers": [
@@ -15,9 +15,9 @@
   "paths": {
     "/fee-reversal": {
       "post": {
-        "summary": "AY Process a fee reversal to an account",
-        "description": "AY Takes an IBAN and amount, then posts a fee reversal transaction.",
-        "operationId": "AYreversefee",
+        "summary": "Process a fee reversal to an account",
+        "description": "Takes an IBAN and amount, then posts a fee reversal transaction.",
+        "operationId": "reversefee",
         "requestBody": {
           "required": true,
           "content": {
@@ -106,9 +106,9 @@
     },
     "/approve-overdraft": {
       "post": {
-        "summary": "AY Approve or modify overdraft limit for an account",
-        "description": "AY Takes an IBAN and overdraft amount, then sets the specified overdraft limit.",
-        "operationId": "AYoverdraft",
+        "summary": "Approve or modify overdraft limit for an account",
+        "description": "Takes an IBAN and overdraft amount, then sets the specified overdraft limit.",
+        "operationId": "overdraft",
         "requestBody": {
           "required": true,
           "content": {
