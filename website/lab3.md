@@ -18,6 +18,28 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
 
 
 ---------------------
+## Adding Custom Banking Tools
+
+As we will be using a shared instance for this workshop, we will need to make slight modification to this script to avoid confusion and skill clashes.
+    
+1. Download the [Bank.json](./tools/bank.json) custom skills script.
+2. Open up the script with a code editor or notepad and update the following:
+    - Update **title** to `[Your Name] GFM Bank Unified Tool APIs` <br>
+    - Update **description** to `[Your Name] Unified API combining multiple banking services` <br>
+    - Update the fee-reversal API:
+      - **summary** to `[Your Name] Process a fee reversal to an account` <br>
+      - **description** to `[Your Name] Takes an IBAN and amount, then posts a fee reversal transaction.` <br>
+      - **operationid** to `[Your Name]reversefee` (no spacing)
+    - Update the approve-overdraft API:
+      - **summary** to `[Your Name] Approve or modify overdraft limit for an account `<br>
+      - **description** to `[Your Name] Takes an IBAN and overdraft amount, then sets the specified overdraft limit.` <br>
+      - **operationid** to `[Your Name]overdraft` (no spacing)
+
+    ![image](imgs/lab3/tool-mod-1.png)
+    ![image](imgs/lab3/tool-mod-2.png)
+
+3. Save the script.
+
 ## Create GFM BackOffice Agent
 
 1. Click on hamburger menu, then **Build -> Agent Builder**
@@ -64,7 +86,8 @@ This lab will showcase how the Orchestrator coordinates multiple specialized age
     
     ![image](./imgs/lab3/lab3-7.png)
 
-9. Download and upload the [Bank.json](./tools/bank.json) OpenAPI specification.
+9. Upload the `Bank.json` OpenAPI specification that we have just modified earlier.
+
     ![image](./imgs/lab3/lab3-8.png)
 
 10. Once the file is uploaded, select **NEXT**. Select the following tools and click **Done**:
