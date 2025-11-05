@@ -25,7 +25,7 @@ In this lab, we will be building the GFM Product Information Agent. This Agent a
 
 3. Follow the steps according to the screenshot below
     - Select **Create from scratch**
-    - Name the agent: *[Your_Initial]_GFM_Product_Information*
+    - Name the agent: ```[Your_Initial]_GFM_Product_Information```
     - Add the following to **Description**
     
     ```

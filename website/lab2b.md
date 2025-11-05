@@ -25,7 +25,7 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
 
 3. Follow the steps according to the screenshot below
     - Select **Create from scratch**
-    - Name the agent: *[Your_Initial]_GFM_Teller*
+    - Name the agent: ```[Your_Initial]_GFM_Teller```
     - Add the following to **Description**
     
     ```
