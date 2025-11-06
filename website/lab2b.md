@@ -64,17 +64,11 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
 
      ![image](./imgs/lab2b/step7.png)
 
-9. Click **Add MCP server**  
+9. Click **Select MCP server**  
 
      ![image](./imgs/lab2b/step8.png)
 
-10. Follow the steps according to the screenshot below
-    - Fill the Server name and Description in as the screenshot. 
-    - Ensure Connection is selected to **None**
-    - Install Command : ```uvx mcp-proxy https://fund-transfer-mcp-tool20.1soswfjkmeox.us-south.codeengine.appdomain.cloud/sse/```, and 
-    - Click **Connect**
-
-    Once connection is successful, click **Done**
+10. In the dropdown list, select the `funds-transfer-ce` MCP server
 
      ![image](./imgs/lab2b/step9.png)
 

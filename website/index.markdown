@@ -27,8 +27,8 @@ Throughout the day, we will take you through
 | 1320 – 1420 | **Lab 1: Using Pre-built Agents and Tools**<br>Browse the catalog and use the attributes of another agent as a template to create your agent.<br><br>**Lab 2a : Building low-code agent in Watsonx Orchestrate**<br>Build a Retrieval-Augmented Generation (RAG) agent capable of synthesizing knowledge in real-time.<br><br>**Lab 2b: Integrating with External Tools**<br>Connect your agent to business systems and workflows using APIs, external tools and MCP. |
 | 1420 – 1520 | **Lab 3: Multi-Agent Collaboration**<br>Build multiple agents working in tandem — coordinating tasks across responsibilities. |
 | 1520 – 1535 | **Break** |
-| 1535 – 1635 | **Demo 1: Importing External Agents**<br>Discover how to deploy, scale and manage external agents for real-world applications.<br><br>**Demo 2: Leveraging ADK**<br>See how to leverage Agent Development Kit to create powerful agents.<br><br>**Demo 3: Enabling Observability and Agent Ops**<br>Explore how observability works and how Agent Ops is enabled. |
-| 1635 – 1700 | **Closing**<br>Consolidate key points and share recently released features. |
+| 1535 – 1655 | **Demo 1: Intelligent Document Processing**<br>Learn how to utilise out-of-the-box document processing<br><br>**Demo 2: Importing External Agents**<br>Discover how to deploy, scale and manage external agents for real-world applications.<br><br>**Demo 3: Leveraging ADK**<br>See how to leverage Agent Development Kit to create powerful agents.<br><br>**Demo 4: Enabling Observability and Agent Ops**<br>Explore how observability works and how Agent Ops is enabled. |
+| 1655 – 1715 | **Closing**<br>Consolidate key points and share recently released features. |
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
