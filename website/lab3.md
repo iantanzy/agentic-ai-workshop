@@ -350,9 +350,6 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
     DE89929842579913662103
     ```
     ```
-    What's the balance of my account IBAN DE89320895326389021994
-    ```
-    ```
     How can I avoid overdraft fees?
     ```
     ```
@@ -363,21 +360,17 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
     DE89320895326389021994
     ```
     ```
-    Please approve my overdraft of 4000 EURO for my account IBAN
-    DE89320895326389021994
-    ```
-    ```
     What's the balance of my account IBAN DE89320895326389021994
     ```
     ```
-    I want to transfer 20 euros from IBAN DE89320895326389021994 to IBAN
+    I want to transfer 4000 euros from IBAN DE89320895326389021994 to IBAN
     DE89929842579913662103
     ```
     ```
     Oh, I made a mistake, can you do a reversal of my previous 4000 EURO payment to my IBAN DE89320895326389021994
     ```
 
-    ![image](./imgs/lab3/lab3-521.png)
+    ![image](./imgs/lab3/lab3-522.png)
 
 Example of **Back Office Agent** functionality under **Teller Agent**
 ![image](./imgs/lab3/lab3-54.png)

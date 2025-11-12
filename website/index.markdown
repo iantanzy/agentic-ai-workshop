@@ -17,7 +17,7 @@ Throughout the day, we will take you through
 
 | Time | Topic |
 |------|-------|
-| 0900 – 0915 | **Welcome and Opening**<br>Introduction and perform environment access check (for hands-on labs). |
+| 0900 – 0915 | **Welcome and Opening**<br>Introduction by<br>- Hector Garcia (CITI)<br>- Samrit Das (IBM) and Kitman Cheung (IBM)|
 | 0915 – 1000 | **Agentic AI in Banking**<br>Understand IBM's point of view on Agentic AI usage in banking through use cases and demonstrations. |
 | 1000 – 1030 | **Platform Strategy**<br>Hear IBM's point of view on how a platform strategy helps in implementing and scaling agents, thus unlocking business value quicker.<br><br>**Designing for Intelligence: Agentic Patterns**<br>Explore the patterns for creating scalable, adaptive agents. |
 | 1030 – 1045 | **Break** |
@@ -28,7 +28,8 @@ Throughout the day, we will take you through
 | 1420 – 1520 | **Lab 3: Multi-Agent Collaboration**<br>Build multiple agents working in tandem — coordinating tasks across responsibilities. |
 | 1520 – 1535 | **Break** |
 | 1535 – 1655 | **Demo 1: Intelligent Document Processing**<br>Learn how to utilise out-of-the-box document processing<br><br>**Demo 2: Importing External Agents**<br>Discover how to deploy, scale and manage external agents for real-world applications.<br><br>**Demo 3: Leveraging ADK**<br>See how to leverage Agent Development Kit to create powerful agents.<br><br>**Demo 4: Enabling Observability and Agent Ops**<br>Explore how observability works and how Agent Ops is enabled. |
-| 1655 – 1715 | **Closing**<br>Consolidate key points and share recently released features. |
+| 1655 – 1715 | **Closing**<br>Consolidate key points and share recently released features.<br>- Arnab De Adhikari (IBM) and Rajeev Arora (IBM)<br>- Final Note by Gopalakrshnan Subayaralu (CITI)
+|
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
