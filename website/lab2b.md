@@ -127,10 +127,10 @@ In this lab, we will be building the GFM Teller Agent. This Agent assists custom
 1. In the preview window on the right, test with the following query:
 
     ```
-    What is the balance of my IBAN <IBAN_Number>?
+    What is the balance of my IBAN [Your assigned IBAN Number]?
     ```
     ```
-    Transfer 100 from <IBAN_Number> to <IBAN_Number>
+    Transfer 100 from [Your assigned IBAN Number] to [Your assigned designated IBAN Number]
     ```
 
     > **Note:** the balance values need not be the exact same with screenshot
