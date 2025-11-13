@@ -343,11 +343,11 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
 
 4. In the chat window, test with the following queries:
     ```
-    What's the balance of my account IBAN DE89320895326389021994
+    What's the balance of my account IBAN [Your assigned IBAN Number]
     ```
     ```
-    I want to transfer 20 euros from IBAN DE89320895326389021994 to IBAN
-    DE89929842579913662103
+    I want to transfer 20 euros from IBAN [Your assigned IBAN Number] to IBAN
+    [Your assigned designated IBAN Number]
     ```
     ```
     How can I avoid overdraft fees?
@@ -357,17 +357,17 @@ This Agent acts as the virtual front desk of GFM Bank, welcoming customers, iden
     ```
     ```
     I want to request an overdraft of 4000 euros for my account IBAN
-    DE89320895326389021994
+    [Your assigned IBAN Number]
     ```
     ```
-    What's the balance of my account IBAN DE89320895326389021994
+    What's the balance of my account IBAN [Your assigned IBAN Number]
     ```
     ```
-    I want to transfer 4000 euros from IBAN DE89320895326389021994 to IBAN
-    DE89929842579913662103
+    I want to transfer 4000 euros from IBAN [Your assigned IBAN Number] to IBAN
+    [Your assigned designated IBAN Number]
     ```
     ```
-    Oh, I made a mistake, can you do a reversal of my previous 4000 EURO payment to my IBAN DE89320895326389021994
+    Oh, I made a mistake, can you do a reversal of my previous 4000 EURO payment to my IBAN [Your assigned IBAN Number]
     ```
 
     ![image](./imgs/lab3/lab3-522.png)
