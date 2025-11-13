@@ -90,10 +90,10 @@ In this lab, we will be creating an agent from scratch and utilizing prebuilt to
 13. Click on the **Behaviour** in the left hand navigation to scroll to the Behaviour section. Add the following text to the **Instructions**:
 
     ```
-    1. Use the "Create an incident in ServiceNow" tool to create an incident, with "short_description" based on user's reported description, "impact_value" set to 2 and "urgency_value" set to 3.
-    2. Once incident has been created, respond to user with "incident_number" from the output of create_an_incident tool.
-    3. Use the "Find incidents in ServiceNow" tool to find an incident, using "search" based user's indicated incident number, "limit" set to 1 and "skip" set to 0. Once found, return the "short_description" of the incident.
-    4. Use the "Delete an incident in ServiceNow" tool to delete an incident, with "incident_number_system_id" based on the user's indicated incident number. Confirm with user before proceeding.
+    1. Use the "Create an incident in ServiceNow" tool to create an incident, with "short_description" based on user's reported description, "impact_value" set to 2 and "urgency_value" set to 3. "IT incident" is not a description
+    2. Once incident has been created, inform the user with "incident_number" from the output of create_an_incident tool and nothing else.
+    3. Use the "Find incidents in ServiceNow" tool to find an incident, using "search" based user's indicated incident number, "limit" set to 1 and "skip" set to 0. Once found, return the short_description of the incident in a markdown table and nothing else.
+    4. Use the "Delete an incident in ServiceNow" tool to delete an incident only upon user's request. Use "incident_number_system_id" based on the user's indicated incident number. Confirm with user before proceeding. Only use this tool if user request for deletion.
     ```
 
     ![image](./imgs/lab1t/step13.png)
@@ -108,18 +108,20 @@ In this lab, we will be creating an agent from scratch and utilizing prebuilt to
 
    ![image](./imgs/lab1t/step15.png)
 
-17. Try clicking the `Create an IT incident` tile on the chat window
+17. Try clicking the `Create an IT incident` tile on the chat window. When asked for short description, enter:
+      ```
+      I cannot access my laptop
+      ```
 
 18. Then try the following queries:
-   ```
-   find incident <your incident number>
-   ```
+      ```
+      find incident <your incident number>
+      ```
+      ```
+      delete incident <your incident number>
+      ```
 
-   ```
-   delete incident <your incident number>
-   ```
-
-   ![image](./imgs/lab1/step-39.png)
+      ![image](./imgs/lab1t/step16.png)
 
  
 ## **Conclusion**
