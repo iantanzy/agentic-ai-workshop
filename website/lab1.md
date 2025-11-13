@@ -12,9 +12,9 @@ The **IBM watsonx Orchestrate catalog** serves as a vast repository of prebuilt 
 
 Each watsonx Orchestrate prebuilt agent and tool is connected to a service. Services require connections to be established. For this lab, we have already created the necessary connections.
 
-### Key features of prebuilt agents include:
-- **Pre-configured**: Prebuilt agents come with pre-defined settings and configurations for easy setup.
-- **Reusable**: Prebuilt agents can be used across multiple workflows, reducing the need to recreate similar tasks.  
+### Key features of prebuilt agents and tools include:
+- **Pre-configured**: Prebuilt agents and tools come with pre-defined settings and configurations for easy setup.
+- **Reusable**: Prebuilt agents and tools can be used across multiple workflows, reducing the need to recreate similar tasks.  
 - **Task-specific**: Each prebuilt agent is designed to perform a specific task or set of tasks, such as data processing, API calls, or notifications.  
 
 In this lab, we will be creating an agent from scratch and utilizing prebuilt tools readily available in the catalog that are connected to ServiceNow.
