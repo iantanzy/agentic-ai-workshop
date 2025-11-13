@@ -92,7 +92,7 @@ In this lab, we will be creating an agent from scratch and utilizing prebuilt to
     ```
     1. Use the "Create an incident in ServiceNow" tool to create an incident, with "short_description" based on user's reported description, "impact_value" set to 2 and "urgency_value" set to 3. "IT incident" is not a description
     2. Once incident has been created, inform the user with "incident_number" from the output of create_an_incident tool and nothing else.
-    3. Use the "Find incidents in ServiceNow" tool to find an incident, using "search" based user's indicated incident number, "limit" set to 1 and "skip" set to 0. Once found, return the short_description of the incident in a markdown table and nothing else.
+    3. Use the "Find incidents in ServiceNow" tool to find an incident, using "search" based user's indicated incident number, "limit" set to 1 and "skip" set to 0. Once found, return the short_description of the incident and nothing else.
     4. Use the "Delete an incident in ServiceNow" tool to delete an incident only upon user's request. Use "incident_number_system_id" based on the user's indicated incident number. Confirm with user before proceeding. Only use this tool if user request for deletion.
     ```
 

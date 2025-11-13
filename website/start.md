@@ -10,12 +10,12 @@ nav_order: 1
 1. Ensure you have an IBM ID and access to a watsonx orchesetrate environment provided by the instructor.
 1. Follow the instructions in Labs 1, 2 and 3.
 
-# Lab 1 Scenario: Discover prebuilt HR Agents in Watsonx Orchestrate
-The **IBM watsonx Orchestrate catalog** serves as a vast repository of prebuilt AI agents and tools, tailored to address a wide array of use cases and requirements. This extensive collection helps you discover agents, tools, or a blend of both that align with your specific needs. In this lab, we will use one of the prebuilt agents in the HR domain to demonstrate how easy it is for a user to start the agent-building journey.
+# Lab 1 Scenario: Discover prebuilt IT tools in Watsonx Orchestrate
+The **IBM watsonx Orchestrate catalog** serves as a vast repository of prebuilt AI agents and tools, tailored to address a wide array of use cases and requirements. This extensive collection helps you discover agents, tools, or a blend of both that align with your specific needs. In this lab, we will use one of the prebuilt tools in the IT domain to demonstrate how easy it is for a user to start the agent-building journey.
 
 ### Lab Architecture
 
-![image](./imgs/lab1/lab1-architecture.png)
+![image](./imgs/lab1t/lab1-architecture.png)
 
 # Lab 2 and 3 Scenario: Transforming Banking with Intelligent Agents
 ### 🔍 Introduction
